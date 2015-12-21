@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +13,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     TextView tvView;
     Button btnOK;
     Button btnCancel;
+    private static final String TAG = "p0102";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,9 +32,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         switch (v.getId()){
             case R.id.btnOK:
                 tvView.setText("This is OK");
+                Log.d(TAG, "This is OK");
                 break;
             case R.id.Cancel:
                 tvView.setText("This is Cancel");
+                Log.d(TAG, "This is Cancel");
                 break;
         }
 
