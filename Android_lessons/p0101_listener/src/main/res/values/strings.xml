@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P0101_Listener</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Cancel</string>
+</resources>
