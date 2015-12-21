@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P0102_ActivityListener</string>
+    <string name="btnOK">ВЫПОЛНИТЬ</string>
+    <string name="btnCancel">ОТМЕНИТЬ</string>
+</resources>
