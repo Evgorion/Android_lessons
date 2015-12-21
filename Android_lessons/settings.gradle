@@ -1,1 +1,1 @@
-include ':app', ':p0091_onclickbuttons', ':p0101_listener', ':p0102_activitylistener', ':p0111_resvalues'
+include ':app', ':p0091_onclickbuttons', ':p0101_listener', ':p0102_activitylistener', ':p0111_resvalues', ':p0131_menusimple'
