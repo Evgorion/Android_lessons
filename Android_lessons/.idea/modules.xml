@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/p0102_activitylistener/p0102_activitylistener.iml" filepath="$PROJECT_DIR$/p0102_activitylistener/p0102_activitylistener.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0111_resvalues/p0111_resvalues.iml" filepath="$PROJECT_DIR$/p0111_resvalues/p0111_resvalues.iml" />
       <module fileurl="file://$PROJECT_DIR$/p0131_menusimple/p0131_menusimple.iml" filepath="$PROJECT_DIR$/p0131_menusimple/p0131_menusimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0141_menuadv/p0141_menuadv.iml" filepath="$PROJECT_DIR$/p0141_menuadv/p0141_menuadv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p0151_contextmenu/p0151_contextmenu.iml" filepath="$PROJECT_DIR$/p0151_contextmenu/p0151_contextmenu.iml" />
     </modules>
   </component>
 </project>
