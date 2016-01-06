@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">P0191_SimpleCalculator</string>
+    <string name="firstItem"></string>
+    <string name="secondItem"></string>
+    <string name="result">результат</string>
+    <string name="plus">+</string>
+</resources>

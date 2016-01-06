@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dagaz.evgeny.p0191_simplecalculator.MainActivity">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/firstItem"
+        android:id="@+id/firstItem"
+        android:background="#309fb3"
+        android:breakStrategy="simple"
+        android:layout_below="@+id/result"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignRight="@+id/secondItem"
+        android:layout_alignEnd="@+id/secondItem" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/secondItem"
+        android:id="@+id/secondItem"
+        android:background="#309fb3"
+        android:layout_below="@+id/firstItem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/result"
+        android:id="@+id/result"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ab4a20"
+        android:layout_alignRight="@+id/firstItem"
+        android:layout_alignEnd="@+id/firstItem" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/butAdd"
+        android:layout_below="@+id/secondItem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/butSub"
+        android:layout_alignTop="@+id/butAdd"
+        android:layout_toRightOf="@+id/butAdd"
+        android:layout_toEndOf="@+id/butAdd"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/butMult"
+        android:layout_alignTop="@+id/butSub"
+        android:layout_toLeftOf="@+id/butDiv"
+        android:layout_toStartOf="@+id/butDiv"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/butDiv"
+        android:layout_alignTop="@+id/butMult"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

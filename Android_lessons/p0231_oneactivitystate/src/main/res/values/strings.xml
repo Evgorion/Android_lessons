@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P0231_OneActivityState</string>
+    <string name="title_activity_two">TwoActivity</string>
+</resources>
