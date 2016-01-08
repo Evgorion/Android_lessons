@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dagaz.evgeny.p0231_oneactivitystate">
+    package="com.dagaz.evgeny.p0271_getintentaction">
 
     <application
         android:allowBackup="true"
@@ -15,10 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".TwoActivity"
-            android:label="@string/title_activity_two"
-            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+        <activity android:name=".Info"
+            android:label="Date/Time info">
+            <intent-filter>
+                <action android:name="com.dagaz.evgeny.showtime"/>
+                <action android:name="com.dagaz.evgeny.showdate"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
